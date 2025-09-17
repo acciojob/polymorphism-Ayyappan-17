@@ -17,7 +17,7 @@ public class Main {
 
         public double product(double x, double y) {
 
-            return x/y;
+            return x*y;
         }
     }
 
@@ -26,7 +26,7 @@ public class Main {
 
         System.out.println(p.product(2,3));
         System.out.println(p.product(5,6,7));
-        System.out.println(p.product(3.14,1.5));
+        System.out.println(p.product(3.14,5.5));
 
 
     }
